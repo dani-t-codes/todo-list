@@ -1,4 +1,5 @@
-using System.Collections.Generic;  // the directive
+using System.Collections.Generic;  // the directive(s)
+using System;
 
 namespace ToDoList.Models
 {
@@ -17,7 +18,7 @@ namespace ToDoList.Models
       // Each time we call our constructor, it will create a new Item and add it to _instances
     }
     
-    public static List<Item> GetAll() // static must be delared b/c variable is static
+    public static List<Item> GetAll() // static must be declared b/c variable is static
     {
       return _instance;  // returns private _instances field variable
     }
