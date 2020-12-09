@@ -1,6 +1,6 @@
 # To Do List
 
-#### Homework Practice Assignment during Epicodus Coding School, C# Practice Exercise , 12.08.2020
+#### Homework Practice Assignment during Epicodus Coding School, C# Practice Exercise, 12.08.2020
 
 #### By Danielle Thompson
 
