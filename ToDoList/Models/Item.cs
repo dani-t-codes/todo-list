@@ -13,19 +13,19 @@ namespace ToDoList.Models
     public Item(string description)
     {
       Description = description;
-      _instances.Add(this); //_instances is a static variable // `this` is the ref to the obj being actively created, similar to JS
+      _instance.Add(this); //_instances is a static variable // `this` is the ref to the obj being actively created, similar to JS
       // Each time we call our constructor, it will create a new Item and add it to _instances
     }
     
     public static List<Item> GetAll() // static must be delared b/c variable is static
     {
-      return _instances;  // returns private _instances field variable
+      return _instance;  // returns private _instances field variable
     }
     //^ to call the above, do `Item.GetAll()`
   
     public static void ClearAll()
       {
-        _instances.Clear();
+        _instance.Clear();
       }
 
   }
