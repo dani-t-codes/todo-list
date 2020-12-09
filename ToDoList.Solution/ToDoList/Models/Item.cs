@@ -1,4 +1,4 @@
-using System.Collections.Generic;  //the directive
+using System.Collections.Generic;  // the directive
 
 namespace ToDoList.Models
 {
