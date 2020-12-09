@@ -22,5 +22,11 @@ namespace ToDoList.Models
       return _instances;  // returns private _instances field variable
     }
     //^ to call the above, do `Item.GetAll()`
+  
+    public static void ClearAll()
+      {
+        _instances.Clear();
+      }
+
   }
 }
